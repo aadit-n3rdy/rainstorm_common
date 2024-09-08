@@ -9,6 +9,7 @@ type FileDownloadData struct {
 	FileID string `json:"file_id"`
 	FileName string `json:"file_name"`
 	Peers []Peer `json:"peers"`
+	Checksums  []string `json:"checksums"`
 	ChunkCount int `json:"chunk_count"`
 };
 
